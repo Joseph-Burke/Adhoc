@@ -1,6 +1,28 @@
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
 
+html {
+    font-size: 10px
+}
+
+.jumbotron-fluid {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/jumbotron.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron-fluid hr {
+    border: none;
+}
+
+.jumbotron-fluid > header {
+    background: rgb(120, 120, 122);
+}
+
+
+
+
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { }
 
@@ -12,3 +34,5 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { }
+
+
